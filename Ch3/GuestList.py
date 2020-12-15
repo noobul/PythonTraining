@@ -30,7 +30,15 @@ print(f"{people.pop()} you're uninvited")
 print(f"{people[0]} you're still invited to dinner")
 print(f"{people[1]} you're still invited to dinner")
 
+#3-9
+list_len = len(people)
+print(list_len)
+
 del people[1]
 del people[0]
 
 print(people)
+
+#3-9
+list_len = len(people)
+print(list_len)
