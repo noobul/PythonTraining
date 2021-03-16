@@ -8,7 +8,7 @@ def make_album(artis_name, album_name, number_of_songs = None):
     print(album_dictionary)
 
 loop = True
-quit_message = "Type 'q' to quit or press 'Enter' to continue"
+quit_message = "Type 'q' to quit or press 'Enter' to continue "
 album_message = "What is your favourite album? "
 artist_message = "By whom? "
 song_nr_meesage = "Do you know how many songs does it have? (press 'Enter' to skip) "
