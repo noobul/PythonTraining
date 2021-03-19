@@ -11,5 +11,6 @@ def send_messages(send_messages):
         sent_messages.append(send_message)
     print(sent_messages)
 
-send_messages(messages_list)
+print_messages(messages_list)
+send_messages(messages_list[:])
 print_messages(messages_list)
