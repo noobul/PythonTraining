@@ -1,4 +1,4 @@
-def make_album(artis_name, album_name, number_of_songs = None):
+def make_album(artis_name, album_name, number_of_songs=None):
     album_dictionary = {
         'name' : artis_name,
         'album' : album_name,
