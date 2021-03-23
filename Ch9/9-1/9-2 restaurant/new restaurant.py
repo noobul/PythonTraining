@@ -22,7 +22,7 @@ restaurant_status()
 
 pizza_restaurant.set_number_served(20)
 shaworma_restaurant.set_number_served(35)
-soup_restaurant.set_number_served(2)
+soup_restaurant.set_number_served(1)
 
 restaurant_status()
 
