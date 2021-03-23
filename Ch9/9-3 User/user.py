@@ -4,6 +4,7 @@ class User:
         self.last_name = last_name
         self.user_name = user_name
         self.user_email = user_email
+        self.login_attempts = 0 #9-4
 
     def describe_user(self):
         user_summary = {
@@ -22,3 +23,9 @@ class User:
             print(f"Wazzup {self.user_name}!")
         else:
             print(f'{greet_request}')
+
+    def increment_login_attempts(self):
+        self.login_attempts +=1
+    
+    def reset_login_attempts(self):
+        self.login_attempts = 0
