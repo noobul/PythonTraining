@@ -23,3 +23,17 @@ class Restaurant:
             self.number_served += served
         else:
             print("You can't decrease the number served.")
+
+#9-6 Ice Cream Stand
+class IceCreamStand(Restaurant):
+
+    def __init__(self, restaurant_name, cuisine_type):
+
+        super().__init__(restaurant_name, cuisine_type)
+        self.ice_cream_flavors = []
+
+    def add_flavors(self, flavors):
+        self.ice_cream_flavors = flavors
+
+    def display_flavors(self):
+        print(f"{self.ice_cream_flavors}")

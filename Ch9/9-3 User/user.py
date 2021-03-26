@@ -29,3 +29,5 @@ class User:
     
     def reset_login_attempts(self):
         self.login_attempts = 0
+
+import admin
