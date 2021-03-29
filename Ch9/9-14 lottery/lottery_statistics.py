@@ -5,8 +5,14 @@ nr_runs = 0
 
 play_lottery = lottery.Lottery()
 
-result = play_lottery.play().sort()
+test = True
+while test:
+    result = set(play_lottery.play())
+    my_ticket = set(my_ticket)
+    print(result)
+    nr_runs += 1
+    if result == my_ticket:
+        break
 
-while my_ticket != result:
-    nr_runs +=1
 print(nr_runs)
+print(f"{result} and {my_ticket}")
