@@ -1,4 +1,4 @@
-import Restaurant 
+import Restaurant
 
 pizza_restaurant = Restaurant.Restaurant('La pomodori', 'Pizza')
 shaworma_restaurant = Restaurant.Restaurant('Mama Manu', 'Shaworma')
