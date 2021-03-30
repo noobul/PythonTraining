@@ -1,0 +1,7 @@
+In Python you can create methods
+In Python you can create classes
+In Python you can create subclasses
+In Python you can create classes that inherit other classes
+In Python you can do math
+In Python you can analise text
+In Python you can create lists
