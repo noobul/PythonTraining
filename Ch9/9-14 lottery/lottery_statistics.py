@@ -7,6 +7,8 @@ play_lottery = lottery.Lottery()
 
 test = True
 while test:
+    #runs the lottery method until the results matches the 'my_ticket'
+    #also counts the number of runs
     result = set(play_lottery.play())
     my_ticket = set(my_ticket)
     print(result)
