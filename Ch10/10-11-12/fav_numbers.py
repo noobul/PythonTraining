@@ -1,6 +1,6 @@
 import json_handler_class
 
-number_add = "We'll that your favorinte number is:"
+number_add = "We'll remmeber that your favorinte number is:"
 number_display = "Your favorinte number is:"
 prompt = "What is your favorite number? "
 file_name = "Ch10/10-11-12/fav_number.json"

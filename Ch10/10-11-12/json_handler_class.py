@@ -10,6 +10,7 @@ class JasonHandler:
         with open(self.file_name, 'w') as f:
             json.dump(info, f)
         print(f"{message} {info}")
+        return info
 
     def read_from_json(self, message):
         """Reads info from specifi json file and prints message"""
