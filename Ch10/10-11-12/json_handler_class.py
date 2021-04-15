@@ -17,3 +17,4 @@ class JasonHandler:
         with open(self.file_name) as f:
             info = json.load(f)
         print(f"{message} {info}")
+        return info
